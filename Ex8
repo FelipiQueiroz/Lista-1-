@@ -1,0 +1,5 @@
+function contarVogais(string) {
+    let vogais = string.match(/[aeiou]/g);
+    return vogais ? vogais.length : 0;
+}
+console.log(contarVogais("javascript")); // Exemplo de uso
