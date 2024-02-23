@@ -1,0 +1,6 @@
+function ehPalindromo(string) {
+    let limpaString = string.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
+    let stringInvertida = limpaString.split("").reverse().join("");
+    return limpaString === stringInvertida;
+}
+console.log(ehPalindromo("Ame a ema")); // Exemplo de uso
