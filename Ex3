@@ -1,0 +1,8 @@
+// Definindo a frase
+let frase = "Disciplina de Programação para web";
+
+// Contando os caracteres
+let quantidade_caracteres = frase.length;
+
+// Impressão do resultado
+console.log("Quantidade de caracteres:", quantidade_caracteres);
