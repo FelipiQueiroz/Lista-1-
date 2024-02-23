@@ -1,0 +1,8 @@
+function dobro(numero) {
+    if (numero <= 0) {
+        return "Só é aceito números positivos maiores que zero";
+    } else {
+        return numero * 2;
+    }
+}
+console.log(dobro(5)); // Exemplo de uso
