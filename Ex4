@@ -1,0 +1,13 @@
+// Recebendo o nome da variável
+let nome_variavel = prompt("Digite o nome da variável:");
+
+// Separando o primeiro e último nome
+let partes_nome = nome_variavel.split(" ");
+let primeiro_nome = partes_nome[0];
+let ultimo_nome = partes_nome[partes_nome.length - 1];
+
+// Construindo o email
+let email = `<<${primeiro_nome}>>.${ultimo_nome}@facens.br`;
+
+// Impressão do email
+console.log("Email:", email);
