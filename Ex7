@@ -1,0 +1,4 @@
+function inverterString(string) {
+    return string.split("").reverse().join("");
+}
+console.log(inverterString("hello")); // Exemplo de uso
